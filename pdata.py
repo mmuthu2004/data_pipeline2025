@@ -5,3 +5,11 @@ data = [1,2,3,4,5]
 processdata = pdata(data)
 
 print(processdata)
+
+def transform_date(input_data):
+
+    return[x*2 for x in input_data]
+
+transformdata = transform_data(data)
+
+print(transformdata)
