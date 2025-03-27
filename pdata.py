@@ -13,3 +13,11 @@ def transform_date(input_data):
 transformdata = transform_data(data)
 
 print(transformdata)
+
+def validate_data(input_data):
+    return[x >= 0 for x in input_data]
+
+
+dataval = validate_data(data)
+
+print(dataval)
