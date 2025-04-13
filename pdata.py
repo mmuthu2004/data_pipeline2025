@@ -20,4 +20,4 @@ def validate_data(input_data):
 
 dataval = validate_data(data)
 
-print(dataval)
+print( The dataval)
